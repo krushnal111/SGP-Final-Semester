@@ -17,13 +17,13 @@ label_title['font'] = label_font
 label_title.grid(pady=(10,10), column=2)
 
 
-icon = Image.open('icons/spy.png')
+icon = Image.open('SGP/spy.png')
 icon = icon.resize((150,150), Image.ANTIALIAS)
 icon = ImageTk.PhotoImage(icon)
 label_icon = tk.Label(frame1, image=icon)
 label_icon.grid(row=1, pady=(5,10), column=2)
 
-btn2_image = Image.open('icons/exit.png')
+btn2_image = Image.open('SGP/exit.png')
 btn2_image = btn2_image.resize((50,50), Image.ANTIALIAS)
 btn2_image = ImageTk.PhotoImage(btn2_image)
 
