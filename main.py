@@ -34,7 +34,7 @@ btn1_image = ImageTk.PhotoImage(btn1_image)
 
 
 
-btn1 = tk.Button(frame1, text='Record', height=90, width=180, fg='orange', command=record, image=btn4_image, compound='left')
+btn1 = tk.Button(frame1, text='Record', height=90, width=180, fg='orange', command=record, image=btn1_image, compound='left')
 btn1['font'] = btn_font
 btn1.grid(row=1, pady=(20,10), column=1)
 
